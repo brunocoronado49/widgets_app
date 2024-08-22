@@ -13,7 +13,6 @@ class HomeScreen extends StatelessWidget {
       body: const _HomeView(),
     );
   }
-
 }
 
 class _HomeView extends StatelessWidget {
