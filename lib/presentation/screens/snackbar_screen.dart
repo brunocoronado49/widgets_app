@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/config/router/app_router.dart';
 
 class SnackbarScreen extends StatelessWidget {
   static const String name = 'snackbar_screen';
 
   const SnackbarScreen({super.key});
-
 
   void showCustomSnackbar(BuildContext context) {
     ScaffoldMessenger.of(context).clearSnackBars();
@@ -64,9 +62,7 @@ class SnackbarScreen extends StatelessWidget {
               child: const Text('Licencias usadas')
             ),
             FilledButton.tonal(
-              onPressed: () {
-                openDialog(context);
-              },
+              onPressed: () => openDialog(context),
               child: const Text('Mostrar dialogo')
             ),
           ],
