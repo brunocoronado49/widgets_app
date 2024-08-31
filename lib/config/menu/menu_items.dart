@@ -17,6 +17,18 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
+    title: 'Theme Changer Screen',
+    subtitle: 'Pantalla para cambiar el tema de la app',
+    link: '/theme',
+    icon: Icons.color_lens_outlined
+  ),
+  MenuItems(
+    title: 'Riverpod Counter Screen',
+    subtitle: 'Pantalla de contador e introduccion a Riverpod',
+    link: '/counter',
+    icon: Icons.add
+  ),
+  MenuItems(
     title: 'Botones',
     subtitle: 'Varios botones en Flutter',
     link: '/buttons',
